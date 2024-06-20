@@ -1,0 +1,116 @@
+{
+  "id": "fd3013a0-fbfa-4e39-b2d0-89525ad60d11",
+  "version": "2.0",
+  "name": "Project Demo",
+  "url": "https://github.com/Ananya-D-Prabhu/",
+  "tests": [{
+    "id": "a4c57e44-8e32-4d6f-8bf8-ca089ceaf261",
+    "name": "Test Demo",
+    "commands": [{
+      "id": "7482d099-6d35-4dc9-990a-89a5a75d2926",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/Ananya-D-Prabhu/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a7ebae6-7447-410e-b30d-766119635935",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "662x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "434f0bef-8fb5-4461-bee4-4f92bf4941f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=repositories-tab",
+      "targets": [
+        ["id=repositories-tab", "id"],
+        ["css=#repositories-tab", "css:finder"],
+        ["xpath=//a[@id='repositories-tab']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/Ananya-D-Prabhu?tab=repositories')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14dfcd70-ccbb-4edf-a08b-bffcba376fe4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=abc",
+      "targets": [
+        ["linkText=abc", "linkText"],
+        ["css=.col-12:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'abc')]", "xpath:link"],
+        ["xpath=//div[@id='user-repositories-list']/ul/li/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Ananya-D-Prabhu/abc')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'abc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a484cae-1c91-45fb-8267-bc4374f0c3ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iDRXxx > .octicon",
+      "targets": [
+        ["css=.iDRXxx > .octicon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bdd941d-62e4-4bca-8475-dc3bdbfae28f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3890fad-25e2-4040-9aaa-391fb5e0a48c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/react-app/div/div/div/div/div/div[2]/div[2]/div/div[3]/div[2]/div/div[2]/file-attachment/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//file-attachment/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b753bea-bcf8-4b89-8279-ad4bc45d8389",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/react-app/div/div/div/div/div/div[2]/div[2]/div/div[3]/div[2]/div/div[2]/file-attachment/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//file-attachment/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-line\" dir=\"auto\">Welcome to ABC Repository</div><div class=\"cm-line\" dir=\"auto\">Author-Ananya Prabhu</div>"
+    }, {
+      "id": "c5faaf7b-0beb-4c35-8379-1905cd55fab7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bBAzZg > .Box-sc-g0xbh4-0 > span",
+      "targets": [
+        ["css=.bBAzZg > .Box-sc-g0xbh4-0 > span", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/react-app/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f863d050-7531-4447-9ab8-6622dee445c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gFhByl > .Box-sc-g0xbh4-0 > span",
+      "targets": [
+        ["css=.gFhByl > .Box-sc-g0xbh4-0 > span", "css:finder"],
+        ["xpath=//div[@id='__primerPortalRoot__']/div[2]/div/div/div[3]/button[2]/span/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["https://www.google.com/", "https://github.com/Ananya-D-Prabhu/"],
+  "plugins": []
+}
